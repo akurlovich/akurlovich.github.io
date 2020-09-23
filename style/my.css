@@ -1,7 +1,12 @@
 body{
   background: #e8e8e8;
 }
- 
+li{
+  text-align: left;
+  /*text-indent: 20px;*/
+  padding: 0.3em;
+  margin-left: 2em;
+} 
 .grid{
   display: grid;
   grid-template-areas: 
