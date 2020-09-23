@@ -7,6 +7,7 @@ li{
   padding: 0.3em;
   margin-left: 2em;
 } 
+
 .grid{
   display: grid;
   grid-template-areas: 
@@ -19,7 +20,8 @@ li{
   margin-left: auto;
   margin-right: auto;
 }
-@media (min-width: 640px) {
+
+@media (min-width: 1000px) {
   .grid {
     /*grid-template-columns: 2fr 4fr;*/
     grid-template-areas: 
@@ -27,6 +29,10 @@ li{
                     "b c" 
                     "d e"
   }
+  
+/*   ul{
+  font-size: 0.5em;
+  }  */
 }
 
 .grid-item{
