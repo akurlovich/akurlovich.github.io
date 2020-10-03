@@ -29,7 +29,7 @@ li{
                     "b c" 
                     "d e"
   }
-  
+
 /*   ul{
   font-size: 0.5em;
   }  */
@@ -48,6 +48,12 @@ li{
 }
 .grid-item:nth-child(1){
   grid-area: a;
+/*}
+.grid-item:nth-child(2){
+  grid-area: b;
+}
+.grid-item:nth-child(3){
+  grid-area: c;*/
 }
 .text11{
   /*background-color: red; */
