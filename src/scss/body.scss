@@ -19,6 +19,7 @@ main {
   border-radius: 2rem;
   z-index: 2;
   backdrop-filter: blur(2rem);
+  display: flex;
 }
 .circle1, .circle2 {
   background: white;
@@ -40,4 +41,78 @@ main {
 .circle2 {
   bottom: 5%;
   left: 10%;
+}
+.user{
+  img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    // object-position: 10% 10%;
+    border-radius: 50%;
+
+  }
+}
+.link{
+  img {
+    width: 20px;
+  }
+}
+.pro{
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  min-width: 50%;
+  min-height: 15%;
+  img {
+    width: 20px;
+  }
+}
+.card{
+  img {
+    width: 20px;
+  }
+}
+
+.dashbord {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: 
+    linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+}
+.user {
+}
+.links {
+}
+.link {
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 1rem 2rem;
+  align-items: center;
+  p {
+    padding: 0rem 2rem;
+  }
+}
+.pro {
+}
+.games {
+  flex: 2;
+}
+.status {
+  
+}
+.cards {
+}
+.card {
+}
+.card-info {
+}
+.progress {
+}
+.percentage {
 }
