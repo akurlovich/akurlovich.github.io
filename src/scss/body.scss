@@ -69,8 +69,8 @@ main {
 }
 .user{
   img {
-    width: 100px;
-    height: 120px;
+    width: 140px;
+    // height: 120px;
     object-fit: cover;
     // object-position: 10% 10%;
     border-radius: 1rem;
@@ -124,7 +124,7 @@ main {
 }
 .link {
   display: flex;
-  margin: 2rem 0rem;
+  // margin: 2rem 0rem;
   padding: 1rem 2rem;
   align-items: center;
   p {
