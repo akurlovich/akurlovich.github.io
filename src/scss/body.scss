@@ -16,7 +16,7 @@ h2 {
 p {
   font-size: 0.6rem;
 }
-h2, p {
+h2, p, a {
   color: #658ec6;
   font-weight: 500;
   opacity: 0.8;
@@ -71,6 +71,16 @@ main {
   bottom: 5%;
   left: 10%;
 }
+
+.skills, .tools {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  min-width: 100%;
+  min-height: 15%;
+  border-radius: 1rem;
+  padding: 1rem;
+  opacity: 0.8;
+}
+
 .user{
   img {
     width: 110px;
@@ -119,17 +129,13 @@ main {
   align-items: center;
   justify-content: space-between;
   padding: 2rem 1rem;
-  text-align: center;
+  // text-align: center;
   background: 
     linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.3));
     border-radius: 2rem;
-}
-.user {
-}
-.links {
 }
 .link {
   display: flex;
@@ -169,16 +175,19 @@ main {
   }
   
 }
-.cards {
-}
 .card {
   display: flex;
   background: linear-gradient(to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
   border-radius: 1rem;
-  margin: 2rem 0rem;
-  padding: 2rem;
+  margin: 0.5rem 0rem;
+  padding: 1rem;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
   justify-content: space-between;
+  h2 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+    text-decoration: underline;
+  }
 }
 .card-info {
   display: flex;
@@ -207,4 +216,8 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
+}
+.expierense, .education, .others {
+  display: block;
+  width: 100%;
 }
