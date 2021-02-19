@@ -215,7 +215,7 @@ main {
   box-shadow: 6px 6px 10px 3px rgba(122, 122, 122, 0.3);
   justify-content: space-between;
   transition: all 0.3s;
-  transform-origin: 0 0;
+  transform-origin: right top;
   &:hover {
     transform: scale(1.1);
     transition: all 0.3s;
