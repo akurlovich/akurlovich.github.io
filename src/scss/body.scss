@@ -88,6 +88,7 @@ main {
   opacity: 0.8;
   box-shadow: 6px 6px 10px 3px rgba(122, 122, 122, 0.3);
   transition: all 0.3s;
+  // transform-origin: 0 0;
   // box-shadow: 6px 6px 10px 3px rgb(122 122 122 / 30%);
   h2 {
     color: white;
@@ -130,6 +131,7 @@ main {
   opacity: 0.8;
   box-shadow: 6px 6px 10px 3px rgba(122, 122, 122, 0.3);
   transition: all 0.3s;
+  // transform-origin: 0 0;
   img {
     width: 20px;
   }
@@ -213,6 +215,7 @@ main {
   box-shadow: 6px 6px 10px 3px rgba(122, 122, 122, 0.3);
   justify-content: space-between;
   transition: all 0.3s;
+  transform-origin: 0 0;
   &:hover {
     transform: scale(1.1);
     transition: all 0.3s;
@@ -263,4 +266,5 @@ main {
     transform: scale(1.1);
     transition: all 0.3s;
   }
+  // transform: translate(50px 50px) scale(1.2) rotate(45deg);
 }
