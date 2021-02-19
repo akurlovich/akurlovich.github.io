@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
+html {
+  font-size: 16px;
+}
+
 h1 {
   color: #426696;
   font-weight: 600;
@@ -73,28 +77,30 @@ main {
     // height: 120px;
     object-fit: cover;
     // object-position: 10% 10%;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 
   }
 }
-.link{
-  img {
-    width: 20px;
-  }
-}
+
 .pro{
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-  min-width: 50%;
+  min-width: 100%;
   min-height: 15%;
-  border-radius: 2rem;
+  border-radius: 1rem;
   padding: 1rem;
   color: white;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  opacity: 0.8;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
   img {
     width: 20px;
+  }
+  h2 {
+    color: white;
+    font-weight: 600;
   }
 }
 .card{
@@ -109,7 +115,8 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 2rem 1rem;
   text-align: center;
   background: 
     linear-gradient(
@@ -125,19 +132,16 @@ main {
 .link {
   display: flex;
   // margin: 2rem 0rem;
-  padding: 1rem 2rem;
+  // padding: 1rem 2rem;
   align-items: center;
   p {
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
+  }
+  img {
+    width: 20px;
   }
 }
-.pro {
-  h2 {
-    color: white;
-    font-weight: 600;
-  }
-  
-}
+
 .games {
   flex: 2;
   display: flex;
