@@ -212,7 +212,7 @@ main {
   background: linear-gradient(to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
   border-radius: 1rem;
   margin: 0.5rem 0rem;
-  padding: 1rem;
+  // padding: 1rem;
   box-shadow: 6px 6px 10px 3px rgba(122, 122, 122, 0.3);
   justify-content: space-between;
   transition: all 0.3s;
@@ -271,14 +271,17 @@ main {
 }
 .expierense {
   position: relative;
+  padding: 1rem 1rem 1rem 12%;
   .imgBx {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    background: red;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
-    height: calc(100% - 20px);
-    width: calc(100% - 20px);
+    // height: calc(100% - 20px);
+    // width: calc(100% - 20px);
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -286,11 +289,20 @@ main {
     border-radius: 1rem;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
     transition: 0.5s ease-in-out;
+    z-index: 3;
   }
   &:hover .imgBx {
-    height: 50%;
-    width: 35%;
-    left: -20%;
+    height: 65%;
+    width: 25%;
+    left: -15%;
     top: 25%;
-  };
+    h2 {
+      font-size: 2rem;
+      transition: 0.5s ease-in-out;
+    }
+  }
+  h2 {
+    // filter: invert(1);
+    transition: 0.5s ease-in-out;
+  }
 }
