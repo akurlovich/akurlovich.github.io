@@ -11,12 +11,13 @@ h1 {
   opacity: 0.8;
 }
 h2 {
-  font-size: 1rem;
+  font-family: 'Londrina Outline', cursive;
+  font-size: 3rem;
   display: block;
   width: 100%;
   text-align: center;
   padding-bottom: 0.5rem;
-  text-decoration: underline;
+  // text-decoration: underline;
   
 }
 p {
@@ -216,10 +217,10 @@ main {
   justify-content: space-between;
   transition: all 0.3s;
   transform-origin: right top;
-  &:hover {
-    transform: scale(1.1);
-    transition: all 0.3s;
-  }
+  // &:hover {
+  //   transform: scale(1.1);
+  //   transition: all 0.3s;
+  // }
   // h2 {
   //   display: block;
   //   width: 100%;
@@ -257,8 +258,8 @@ main {
 
 }
 .expierense, .education, .others {
-  display: block;
-  width: 100%;
+  // display: block;
+  // width: 100%;
 }
 .info {
   transition: all 0.3s;
@@ -267,4 +268,16 @@ main {
     transition: all 0.3s;
   }
   // transform: translate(50px 50px) scale(1.2) rotate(45deg);
+}
+.expierense {
+  position: relative;
+  .imgBx {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    backdrop-filter: blur(20px);
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+  }
 }
