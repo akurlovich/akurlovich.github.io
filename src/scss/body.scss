@@ -279,5 +279,9 @@ main {
     backdrop-filter: blur(20px);
     height: calc(100% - 20px);
     width: calc(100% - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
   }
 }
