@@ -34,15 +34,43 @@ h3 {
   font-size: 2rem;
   opacity: 0.8;
 }
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@keyframes circle {
+  0% {
+    top: 5%;
+  }
+  50% {
+    top: 15%;
+  }
+  100% {
+    top: 5%;
+  }
+}
+
 main {
   font-family: "Poppins", sans-serif;
   height: 100vh;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  // background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: linear-gradient(to right top, #0099F7, #F11712);
+  background-size: 150% 150%;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  animation: gradient 5s ease infinite;
 }
+
 .glass {
   min-height: 80vh;
   min-width: 65%;
@@ -74,6 +102,7 @@ main {
 .circle1 {
   top: 4%;
   right: 10%;
+  animation: circle 10s ease infinite;
 }
 .circle2 {
   bottom: 5%;
@@ -94,10 +123,10 @@ main {
   h2 {
     color: white;
   }
-  &:hover {
-    transform: scale(1.1);
-    transition: all 0.3s;
-  }
+  // &:hover {
+  //   transform: scale(1.1);
+  //   transition: all 0.3s;
+  // }
 }
 
 .user{
