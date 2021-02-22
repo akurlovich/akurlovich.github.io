@@ -9,9 +9,11 @@ h1 {
   font-weight: 600;
   font-size: 2rem;
   opacity: 0.8;
+  // font-family: 'Caveat Brush', cursive;
 }
 h2 {
-  font-family: 'Londrina Outline', cursive;
+  // font-family: 'Londrina Outline', cursive;
+  font-family: 'Caveat Brush', cursive;
   font-size: 3rem;
   display: block;
   width: 100%;
@@ -20,14 +22,21 @@ h2 {
   // text-decoration: underline;
   
 }
-p {
-  font-size: 0.8rem;
-}
+
 h2, p, a {
   color: #658ec6;
   font-weight: 500;
   opacity: 0.8;
 }
+p {
+  font-size: 0.8rem;
+  color: rgb(79, 5, 94);
+  // font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  // letter-spacing: 1px;
+  line-height: 1rem;
+}
+
 h3 {
   color: #426696;
   font-weight: 600;
@@ -147,8 +156,8 @@ main {
     transition: all 0.3s;
     margin-bottom: 1rem;
     &:hover {
-      transform: scale(1.4);
-      transition: all 0.3s;
+      // transform: scale(1.4);
+      // transition: all 0.3s;
     }
   
   }
@@ -160,6 +169,11 @@ main {
     box-shadow: 3px 3px 1px #6b8680;
     border-radius: 0.5rem;
     padding: 0.5rem;
+    transition: all 0.3s;
+    &:hover {
+      transform: scale(1.1);
+      transition: all 0.3s;
+    }
   }
 }
 
