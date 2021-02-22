@@ -6,6 +6,7 @@ html {
 
 h1 {
   color: #426696;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 2rem;
   opacity: 0.8;
@@ -367,5 +368,12 @@ main {
     // filter: invert(1);
     transition: 0.5s ease-in-out;
     font-weight: 600;
+  }
+}
+
+.expierense_text {
+  display: flex;
+  li {
+    max-width: 50%;
   }
 }
