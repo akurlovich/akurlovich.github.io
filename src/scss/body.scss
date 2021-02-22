@@ -119,6 +119,7 @@ main {
   opacity: 0.8;
   box-shadow: 6px 6px 10px 3px rgba(122, 122, 122, 0.3);
   transition: all 0.3s;
+  margin-bottom: 1rem;
   // transform-origin: 0 0;
   // box-shadow: 6px 6px 10px 3px rgb(122 122 122 / 30%);
   h2 {
@@ -301,7 +302,7 @@ main {
 }
 .expierense {
   position: relative;
-  padding: 1rem 1rem 1rem 12%;
+  padding: 3rem 1rem 1rem 1rem;
   .imgBx {
     position: absolute;
     top: 0;
@@ -323,17 +324,20 @@ main {
     z-index: 3;
   }
   &:hover .imgBx {
-    height: 65%;
-    width: 25%;
-    left: -15%;
-    top: 25%;
+    height: 2.5rem;
+    // width: 25%;
+    // left: -15%;
+    // top: 25%;
     h2 {
       font-size: 2rem;
       transition: 0.5s ease-in-out;
+      // filter: invert(1);
+      
     }
   }
   h2 {
     // filter: invert(1);
     transition: 0.5s ease-in-out;
+    font-weight: 600;
   }
 }
