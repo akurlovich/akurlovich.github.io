@@ -196,3 +196,109 @@ a {
   align-items: center;
   gap: 10px;
 }
+
+.skills_bar {
+  text-align: left;
+}
+
+.bar {
+  margin: 20px 0;
+}
+.info {
+  margin-bottom: 5px;
+}
+.info span {
+  opacity: 0;
+  animation: showText2 0.5s 1s linear forwards;
+
+}
+@keyframes showText2 {
+  100% {
+    opacity: 1;
+  }
+}
+
+.progress_line {
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  transform: scaleX(0);
+  transform-origin: left;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
+                    0px 1px rgba(255, 255, 255, 0.8);
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+.progress_line span {
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  background: #6665ee;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+.progress_line.html span {
+  width: 90%;
+}
+.progress_line.css span {
+  width: 60%;
+}
+.progress_line.javascript span {
+  width: 80%;
+}
+.progress_line.reactjs span {
+  width: 40%;
+}
+.progress_line span::before {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  right: 0px;
+  top: -10px;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText 0.5s 1.5s linear forwards;
+}
+.progress_line span::after {
+  position: absolute;
+  /* content: "80%"; */
+  right: -1px;
+  top: -24px;
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 1px 8px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText 0.5s 1.5s linear forwards;
+
+}
+@keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+.progress_line.html span::after {
+  content: "90%";
+}
+.progress_line.css span::after {
+  content: "60%";
+}
+.progress_line.javascript span::after {
+  content: "80%";
+}
+.progress_line.reactjs span::after {
+  content: "40%";
+}
