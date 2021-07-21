@@ -1,5 +1,6 @@
 
 @import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap);
 
 * {
   padding: 0;
@@ -112,9 +113,15 @@ li{
   border-radius: 1%;
   background: white;
   min-width: 200px;
+  transition: all 0.5s ease;
 }
-.image1{
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+.grid-item:hover {
+  /* transform: scale(1.01); */
+  transition: all 0.5s ease;
+}
+.header_avatar{
+  width: 40%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 
 }
 .grid-item:nth-child(1){
@@ -126,13 +133,11 @@ li{
 /*.grid-item:nth-child(3){
   grid-area: c;*/
 
-.text11{
-  /*background-color: red; */
+/* .text11{
   width: 50%;
   height: 100%;
-  /*border: 2px solid black;*/
   text-align: center;
-}
+} */
 .box1{
   display: flex;
 
@@ -168,6 +173,7 @@ li{
   display: flex;
 }
 .header_img {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -175,6 +181,11 @@ li{
   gap: 20px;
   width: 50%;
   height: 100%;
+}
+.header_skr {
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 .header_title {
   width: 50%;
@@ -184,11 +195,27 @@ li{
   justify-content: space-between;
 }
 h1 {
+  font-family: 'Poppins', sans-serif;
   font-size: 36px;
   font-weight: 700;
 }
+h4 {
+  font-size: 18px;
+}
+.header_job {
+  font-family: 'Poppins', sans-serif;
+  color: #39005c;
+  font-size: 18px;
+  font-weight: 700;
+  
+}
 a {
-  color: blue;
+  color: black;
+}
+.header_contacts {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
 }
 .header_text {
   display: flex;
@@ -270,7 +297,7 @@ a {
   border: 7px solid transparent;
   border-bottom-width: 0px;
   border-right-width: 0px;
-  border-top-color: blueviolet;
+  border-top-color: #39005c;
   opacity: 0;
   animation: showText 0.5s 1.5s linear forwards;
 }
@@ -279,7 +306,7 @@ a {
   /* content: "80%"; */
   right: -1px;
   top: -28px;
-  background: blueviolet;
+  background: #39005c;
   color: #fbfbfb;
   font-size: 12px;
   font-weight: 500;
@@ -314,5 +341,17 @@ h2 {
   font-size: 18px;
   font-weight: 500;
   margin: 5px;
+}
+.li_period {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #39005c;
+  text-decoration: underline;
+}
+.skill_title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
 }
 
