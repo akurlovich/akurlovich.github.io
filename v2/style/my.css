@@ -287,6 +287,15 @@ a {
 .progress_line.reactjs span {
   width: 40%;
 }
+.progress_line.redux span {
+  width: 50%;
+}
+.progress_line.nestjs span {
+  width: 30%;
+}
+.progress_line.git span {
+  width: 70%;
+}
 .progress_line span::before {
   position: absolute;
   content: "";
@@ -332,6 +341,15 @@ a {
 }
 .progress_line.reactjs span::after {
   content: "40%";
+}
+.progress_line.redux span::after {
+  content: "50%";
+}
+.progress_line.nestjs span::after {
+  content: "30%";
+}
+.progress_line.git span::after {
+  content: "70%";
 }
 h2 {
   font-size: 24px;
