@@ -1,6 +1,7 @@
 
 @import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,900&display=swap);
 
 * {
   padding: 0;
@@ -25,8 +26,8 @@ html, body {
   height: 100%;
   width: 100%;
   font-size: 100%;
-  line-height: 1;
-  font-size: 14px;
+  /* line-height: 1; */
+  font-size: 16px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
@@ -76,7 +77,7 @@ li{
   text-align: left;
   /*text-indent: 20px;*/
   padding: 0.3em;
-  margin-left: 1em;
+  /* margin-left: 1em; */
 } 
 
 .wrapper_grid {
@@ -106,7 +107,7 @@ li{
 .grid-item{
   padding: 1.5em;
   text-align: center;
-  margin: 1em;
+  margin: 5px;
   display: inline-block;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   border: 5px white;
@@ -120,7 +121,7 @@ li{
   transition: all 0.5s ease;
 }
 .header_avatar{
-  width: 40%;
+  width: 162px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 
 }
@@ -130,18 +131,11 @@ li{
 .grid-item:nth-child(4){
   grid-area: d;
 }
-/*.grid-item:nth-child(3){
-  grid-area: c;*/
 
-/* .text11{
-  width: 50%;
-  height: 100%;
-  text-align: center;
-} */
-.box1{
+/* .box1{
   display: flex;
 
-}
+} */
 .button15 {
   display: inline-block;
   font-family: arial,sans-serif;
@@ -179,7 +173,7 @@ li{
   justify-content: center;
   align-items: center;
   gap: 20px;
-  width: 50%;
+  width: 30%;
   height: 100%;
 }
 .header_skr {
@@ -188,7 +182,7 @@ li{
   left: 0px;
 }
 .header_title {
-  width: 50%;
+  width: 70%;
   /* height: 100%; */
   display: flex;
   flex-direction: column;
@@ -354,6 +348,7 @@ a {
 h2 {
   font-size: 24px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 .li_title_time {
   font-size: 18px;
@@ -361,15 +356,25 @@ h2 {
   margin: 5px;
 }
 .li_period {
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  font-weight: 800;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  /* font-family: 'Poppins', sans-serif; */
+  font-size: 20px;
+  /* font-weight: 800; */
   color: #39005c;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .skill_title {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 800;
+}
+.education_block {
+  line-height: 18px;
+}
+.li_other {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  padding: 0;
 }
 
