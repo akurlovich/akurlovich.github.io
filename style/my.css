@@ -279,7 +279,7 @@ a {
   width: 80%;
 }
 .progress_line.reactjs span {
-  width: 40%;
+  width: 60%;
 }
 .progress_line.redux span {
   width: 50%;
@@ -334,7 +334,7 @@ a {
   content: "80%";
 }
 .progress_line.reactjs span::after {
-  content: "40%";
+  content: "60%";
 }
 .progress_line.redux span::after {
   content: "50%";
