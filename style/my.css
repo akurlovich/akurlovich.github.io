@@ -223,7 +223,7 @@ a {
 }
 
 .bar {
-  margin: 20px 0;
+  margin: 15px 0;
 }
 .info {
   margin-bottom: 5px;
@@ -277,6 +277,9 @@ a {
 }
 .progress_line.javascript span {
   width: 80%;
+}
+.progress_line.typescript span {
+  width: 70%;
 }
 .progress_line.reactjs span {
   width: 60%;
@@ -332,6 +335,9 @@ a {
 }
 .progress_line.javascript span::after {
   content: "80%";
+}
+.progress_line.typescript span::after {
+  content: "70%";
 }
 .progress_line.reactjs span::after {
   content: "60%";
