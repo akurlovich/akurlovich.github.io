@@ -223,7 +223,7 @@ a {
 }
 
 .bar {
-  margin: 15px 0;
+  margin: 10px 0;
 }
 .info {
   margin-bottom: 5px;
@@ -270,7 +270,7 @@ a {
   }
 }
 .progress_line.html span {
-  width: 90%;
+  width: 70%;
 }
 .progress_line.css span {
   width: 60%;
@@ -292,6 +292,9 @@ a {
 }
 .progress_line.git span {
   width: 70%;
+}
+.progress_line.docker span {
+  width: 30%;
 }
 .progress_line span::before {
   position: absolute;
@@ -328,7 +331,7 @@ a {
   }
 }
 .progress_line.html span::after {
-  content: "90%";
+  content: "70%";
 }
 .progress_line.css span::after {
   content: "60%";
@@ -351,6 +354,9 @@ a {
 .progress_line.git span::after {
   content: "70%";
 }
+.progress_line.docker span::after {
+  content: "30%";
+}
 h2 {
   font-size: 24px;
   font-weight: 600;
@@ -363,6 +369,7 @@ h2 {
   margin: 5px;
 }
 .li_period {
+  text-align: start;
   font-family: 'Merriweather', serif;
   font-weight: 900;
   /* font-family: 'Poppins', sans-serif; */
@@ -388,8 +395,11 @@ h2 {
   display: flex;
   flex-direction: column;
   margin-bottom: 12px;
-  margin-top: 18px;
+  margin-top: 24px;
 }
 .li_exp {
   font-weight: 600;
+}
+.arrow {
+  margin-right: 12px;
 }
