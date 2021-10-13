@@ -403,3 +403,13 @@ h2 {
 .arrow {
   margin-right: 12px;
 }
+.project_title {
+  /* text-decoration: underline; */
+}
+.discription {
+  font-size: 16px;
+  color: black;
+  font-family: 'Roboto';
+  display: block;
+  padding-left: 35px;
+}
